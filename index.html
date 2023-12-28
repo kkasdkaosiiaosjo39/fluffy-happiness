@@ -48,7 +48,10 @@ $SANIC train. It's not about the moon; it's about enjoying the
 meme-filled journey along the way. <br>/SANIC_FAST_ASF<br>sanic sanic sanic sanicsanicsanic</p></div></section><div class="aboutgif"><img src="index_files/658dc79b1815cdd2c2942ee6_sanic-rotation.gif" loading="lazy" width="522" alt="" class="image-10"></div></div></div></div><div class="divider"></div><div class="memes"><div class="memegridleft"><div class="row"><img src="index_files/658dd16a20697f6f9dd7386f_matematica-sonic.gif" loading="lazy" alt="" class="image-13"><img src="index_files/658de53fd42517b35f4b13e2_3dgifmaker08851.gif" loading="lazy" alt="" class="image-12"></div><div class="row"><img src="index_files/658de7a1bddb427e123173f1_sonic-the.gif" loading="lazy" alt="" class="image-14"><img src="index_files/658de83838cd3aca0683583f_sonic-running.gif" loading="lazy" alt="" class="image-15"></div></div></div><div class="video"><div class="container"><div class="footer-wrap"><button id="audioControl">PAUSE</button></a></div></div></div></div><script src="index_files/jquery-3.5.1.min.dc5e7f18c8.js" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="index_files/webflow.4f0c1efea.js" type="text/javascript"></script>
 <script>
     window.onload = function() {
-        document.getElementById('consentModal').style.display = 'flex';
+        setTimeout(function() {
+            const consentModal = document.getElementById('consentModal');
+            consentModal.style.display = 'flex';
+        }, 2000);
     };
     document.getElementById('agreeButton').addEventListener('click', function() {
         document.getElementById('backgroundAudio').volume = 0.02;
