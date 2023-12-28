@@ -51,6 +51,7 @@ meme-filled journey along the way. <br>/SANIC_FAST_ASF<br>sanic sanic sanic sani
         document.getElementById('consentModal').style.display = 'flex';
     };
     document.getElementById('agreeButton').addEventListener('click', function() {
+        document.getElementById('backgroundAudio').volume = 0.005;
         document.getElementById('backgroundAudio').play();
         document.getElementById('consentModal').style.display = 'none';
     });
